@@ -66,7 +66,7 @@
 
 AI-TENDER — тендерная команда 24/7 для поставщиков Беларуси: закупки под вашу компанию, разбор требований с дословными цитатами из документов закупки, пакет документов к подаче. Доступ только по приглашению.
 
-**Areas:** AI · Tender · Government Procurement · Belarus · Invitation-only
+**Areas:** Artificial Intelligence · Tender · Government Procurement · Belarus · Invitation-Only
 
 ## AI-TENDER on APIs.io
 
@@ -81,11 +81,17 @@ Everything profiled for AI-TENDER is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ai-tender-by-mcp.yml](https://apis.io/servers/ai-tender-by/ai-tender-by-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ai Tender By Agentic Access](https://apis.io/agentic-access/ai-tender-by/ai-tender-by-agentic-access/)
+- [AI-TENDER Agentic Access](https://apis.io/agentic-access/ai-tender-by/ai-tender-by-agentic-access/)
 
 #### JSON Schema (2)
 
@@ -110,14 +116,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ai Tender By Authentication](https://apis.io/security/ai-tender-by/ai-tender-by-authentication/)
-- [Ai Tender By Domain Security](https://apis.io/security/ai-tender-by/ai-tender-by-domain-security/)
+- [AI-TENDER Authentication](https://apis.io/security/ai-tender-by/ai-tender-by-authentication/)
+- [AI-TENDER Domain Security](https://apis.io/security/ai-tender-by/ai-tender-by-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Ai Tender By Scopes](https://apis.io/scopes/ai-tender-by/ai-tender-by-scopes/)
+- [AI-TENDER Scopes](https://apis.io/scopes/ai-tender-by/ai-tender-by-scopes/)
 
 ## Where to find this API
 
@@ -128,28 +134,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 33.5** — thin · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 27.3** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 57.7 |
-| Contract governance | 79.1 |
+| Discoverability | 71.7 |
+| Contract quality | 60.7 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 11.2 |
 | Access clarity | 0.0 |
 
-**Agent readiness 29.0** — agent-ready
+**Agent readiness 33.4** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
-| Reversibility Documented | — |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
-| Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Idempotency | na |
+| Error Semantics | verified |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
@@ -157,7 +163,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
-| Dry Run Mode | — |
+| Dry Run Mode | na |
 | Delegated Identity | — |
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
@@ -165,8 +171,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.1** — Government & Public Sector
+**Regulatory alignment 13.6** — Government & Public Sector
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ai-tender-by/](https://apis.io/providers/ai-tender-by/).
 
